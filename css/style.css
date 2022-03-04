@@ -87,27 +87,41 @@ header{
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-
   background-color: #222222;
   color: #fff;
   border: 1px solid red;
 }
-.footer-left, .footer-center, .footer-right{
+.footer-left, .footer-right{
   width: 20%;
   display: flex;
   flex-flow: row nowrap;
   border: 1px solid yellow;
 }
-.box {
-  text-align: center;
-  border: 1px solid green;
+.footer-center{
+  width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid yellow;
 }
-
-.footer-left .icon-big{
+.box {
+  margin-left: 10px;
+  text-align: center;
+}
+.footer-label{
+  position: relative;
+  padding: 5px;
+}
+.small{
+  font-size: 12px;
+}
+.green{
+  color: #51c623;
+}
+.footer-left .icon-big, .footer-center .icon-big{
 font-size: 26px;
 margin:10px 15px;
 }
-.footer-left .icon{
+.footer-left .icon, .footer-center .icon{
 font-size: 14px;
 padding-top: 30px;
 }
