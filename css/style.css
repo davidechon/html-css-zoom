@@ -125,5 +125,17 @@ margin:10px 15px;
 font-size: 14px;
 padding-top: 30px;
 }
+.end{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  padding-top: 30px;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  background-color: #4a4a4a;
+  color: #fc0d1b;
+}
 
 
